@@ -46,3 +46,22 @@ Clone this repository:
 ```bash
 git clone https://github.com/your-username/sentiment-analysis-yelp-bert.git
 cd sentiment-analysis-yelp-bert
+```
+
+### Running the Project
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the training script:
+   ```bash
+   python train.py
+   ```
+3. Evaluate the model:
+   ```bash
+   python evaluate.py
+   ```
+
+## References
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+- Hugging Face Transformers Library
